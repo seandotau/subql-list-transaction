@@ -25,7 +25,7 @@ Open your browser and head to `http://localhost:3000` and paste the below query 
 
 ````graphql
 query{
-transfers(first:5 orderBy:AMOUNT_DESC){
+  transfers(first:5 orderBy:AMOUNT_DESC){
     nodes{
       amount
       blockNumber
